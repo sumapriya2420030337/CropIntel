@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile - CropIntel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>👨‍🌾 Farmer Profile</h1></header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="mycrop.html">My Crops</a>
+    <a href="soil.html">Soil</a>
+    <a href="weather.html">Weather</a>
+    <a href="recommendations.html">Recommendations</a>
+    <a href="givtsh.html">Govt Schemes</a>
+    <a href="pests.html">Pest Alerts</a>
+    <a href="ai.html">AI Assistant</a>
+    <a href="profile.html">Profile</a>
+  </nav>
+
+  <div class="container">
+    <h2>My Profile</h2>
+    <div class="card">
+      <input type="text" id="farmerName" placeholder="Your Name">
+      <input type="text" id="farmerLocation" placeholder="Location">
+      <input type="text" id="farmerPhone" placeholder="Phone Number">
+      <button onclick="saveProfile()">Save Profile</button>
+    </div>
+
+    <h2>Saved Details</h2>
+    <div id="profileDetails" class="card"></div>
+  </div>
+
+  <script src="scripts/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recommendations - CropIntel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>💡 Crop Recommendations</h1></header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="mycrop.html">My Crops</a>
+    <a href="soil.html">Soil</a>
+    <a href="weather.html">Weather</a>
+    <a href="recommendations.html">Recommendations</a>
+    <a href="givtsh.html">Govt Schemes</a>
+    <a href="pests.html">Pest Alerts</a>
+    <a href="ai.html">AI Assistant</a>
+    <a href="profile.html">Profile</a>
+  </nav>
+
+  <div class="container">
+    <h2>Smart Recommendations</h2>
+    <div class="card">
+      <input type="text" id="recCrop" placeholder="Enter crop or soil type">
+      <button onclick="getRecommendation()">Get Recommendation</button>
+    </div>
+    <div id="recommendationResult" class="card"></div>
+  </div>
+
+  <script src="scripts/recommendations.js"></script>
+</body>
+</html>

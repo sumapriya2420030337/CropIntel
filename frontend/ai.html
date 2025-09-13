@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Assistant - CropIntel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>🤖 AI Farming Assistant</h1></header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="mycrop.html">My Crops</a>
+    <a href="soil.html">Soil</a>
+    <a href="weather.html">Weather</a>
+    <a href="recommendations.html">Recommendations</a>
+    <a href="givtsh.html">Govt Schemes</a>
+    <a href="pests.html">Pest Alerts</a>
+    <a href="ai.html">AI Assistant</a>
+    <a href="profile.html">Profile</a>
+  </nav>
+
+  <div class="container">
+    <h2>Ask me anything about farming</h2>
+    <div class="card">
+      <input type="text" id="question" placeholder="Type your question...">
+      <button onclick="askAI()">Ask</button>
+    </div>
+    <div id="aiResponse" class="card"></div>
+  </div>
+
+  <script src="scripts/ai.js"></script>
+</body>
+</html>
