@@ -1,0 +1,4 @@
+[
+  { "id": 1, "crop": "Rice", "pest": "Brown Planthopper", "solution": "Use resistant varieties, spray neem extract" },
+  { "id": 2, "crop": "Wheat", "pest": "Stem Rust", "solution": "Use fungicides, crop rotation" }
+]
